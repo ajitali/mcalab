@@ -1,0 +1,194 @@
+<html>
+<body>
+<h1><b><u>WEB TECHNOLOGY</u></b></h1>
+<UL>
+<li><a href="#web">Introduction to web</a></li>
+<li><a href="#http">web applications</a></li>
+<li><a href="#client">Client server</a></li>
+<li><a href="#advantage">Advantages of client server</a></li>
+<li><a href="#protocol">Client server protocols</a></li>
+<li><a href="#content">types of web content</a></li>
+<li><a href="#dynamic">Dynamic webpages</a></li>
+<li><a href="#work">Working of dynamic webpage</a></li>
+<li><a href="#security">Web security</a></li>
+</UL>
+<p>
+<h3 id="web">Introduction to web</h3>
+Web consists of billions of clients and server connected through wires and wireless networks. The web clients make requests to web server. The web server receives the request, finds the resources and return the response to the client. When a server answers a request, it usually sends some type of content to the client. The client uses web browser to send request to the server. The server often sends response to the browser with a set of instructions written in HTML(HyperText Markup Language). All browsers know how to display HTML page to the client.
+
+
+<h3 id="http">Web Application</h3>
+A website is a collection of static files(webpages) such as HTML pages, images, graphics etc. A Web application is a web site with dynamic functionality on the server. Google, Facebook, Twitter are examples of web applications.
+
+HTTP (Hypertext Transfer Protocol)
+HTTP is a protocol that clients and servers use on the web to communicate.
+It is similar to other internet protocols such as SMTP(Simple Mail Transfer Protocol) and FTP(File Transfer Protocol) but there is one fundamental difference.
+HTTP is a stateless protocol i.e HTTP supports only one request per connection. This means that with HTTP the clients connect to the server to send one request and then disconnects. This mechanism allows more users to connect to a given server over a period of time.
+The client sends an HTTP request and the server answers with an HTML page to the client, using HTTP.
+
+<h3 id="client">What is client-server?</h3>
+
+Client-server is a relationship in which one program, the client, requests a service or resource from another program, the server. The label client-server was previously used to distinguish distributed computing by PCs from the monolithic, centralized computing model used by mainframes.
+
+Today, computer transactions in which the server fulfills a request made by a client are very common. The client-server model has become one of the central ideas of network computing. In this context, the client establishes a connection to the server over a LAN or WAN, such as the internet.
+
+Once the server fulfils the client's request, the connection terminates. Because multiple client programs share the services of the same server program, a special server called a daemon might activate to await client requests.
+
+In the early days of the internet, most network traffic traveled through what is known as north-south traffic. This is when data moves between remote clients that request web content and data center servers that provide the content. Today, with the maturity of virtualization and cloud computing, network traffic is more likely to flow server-to-server -- a pattern known as east-west traffic.
+
+<h3 id="advantage">Advantages and disadvantages of the client-server model</h3>
+
+An important advantage of the client-server model is that its centralized architecture makes it easier to protect data with access controls enforced by security policies. It also doesn't matter if the clients and the server exist on the same operating system because data transfers through platform-agnostic client-server protocols.
+
+An important disadvantage of the client-server model is that if too many clients simultaneously request data, the server could become overloaded. This can cause network congestion or result in a denial of service.
+
+<h3 id="protocol">Client-server protocols</h3>
+
+Clients typically communicate with servers by using the TCP/IP protocol suite. TCP is a connection-oriented protocol, which means the protocol establishes and maintains connections until the application programs at each end have finished exchanging messages. TCP protocols help with the following:
+
+Determines how to break application data into packets.
+Sends packets to and accepts packets from the network layer.
+Manages traffic flow control.
+Handles retransmission of dropped or garbled packets.
+Acknowledges all packets that arrive in the network.
+In the Open Systems Interconnection (OSI) communication model, TCP covers parts of Layer 4, the transport layer, and parts of Layer 5, the session layer.
+
+By contrast IP is a connectionless protocol, which means endpoints don't continue to communicate following the initial transmission because there is no connection. The internet treats each packet that travels through the network as an independent unit of data without any relation to any other unit, while TCP organizes packets in the correct order. In the OSI communication model, IP is in Layer 3, the network layer.
+
+<h3 id="content">Most popular types of web content</h3>
+The best websites create a mix of different content types to keep their readers interested. While there are hundreds of different types of web content, these 50 in-particular are our favorite types of digital content.
+
+
+1. Articles
+This type of web content develops an idea and incorporates interviews, quotes, and data to support the article’s hypothesis. Articles are usually long-form content, between 1,000 and 3,000 words.
+
+2. Blog posts
+Blog posts typically range between 500 and 750 words, focusing on a variety of topics. Some of these topics can include news in the industry, bios of industry leaders, reviews of new products, and more.
+
+3. Surveys
+Adding surveys to your content arsenal can gauge your readers’ interest and to increase reader engagement with your brand. Surveys are also fun for the reader and is one of the more interactive content types.
+
+4. Quizzes
+Quizzes are another way to engage your reader, by having a question on one page and the answer on the next, which adds extra potential for ad revenue and click-throughs.
+
+5. Photos
+Images help make your content more visually appealing, and contributes to the overall user experience. Additionally, optimizing your photos with alt-text and captions to your images can even help with your rankings on Google Images.
+
+6. Videos
+Using videos is a great way to diversify your content and add visual interest to your pages. These can be videos you take yourself or videos from sources like YouTube or Vimeo. (Just make sure to give credit where credit is due.)
+
+7. Case studies
+Case studies outline how a particular individual or company used a product or service. Seeing a real person use your product can help potential buyers see themselves using it and, thus, encouragement to purchase from you.
+
+8. Website content
+Website content encompasses many content types. This can include website pages detailing your individual services, products, people, locations, etc.
+
+
+9. Guest blogs or posts
+Find guest writers from notable people in your industry, writers of other blogs or websites that focus on your topic, or on social media pages or groups related to your topic. Adding a few posts by guest writers adds a new voice to your pages and helps to bring in new readers to your website.
+
+10. Interviews
+First person interviews with people actively involved in your topic is a way to share different points of view with your readers and expand their knowledge of your topic. You can ask readers to submit questions in advance to increase your user engagement.
+
+11. FAQs
+Everyone has questions. A FAQ (frequently asked questions) page is one of the best content types to help address common questions all in one place. This helps you better manage your time and not have to answer the same question over and over again.
+
+12. Press releases
+Press releases from companies in your field make good fodder for your blog or website. Just make sure that you don’t copy the release directly to avoid a duplicate content penalty from the search engines.
+
+13. Announcements
+Do you have a new employee, product, or even some new swag? Let your readers know about it in an announcement post. Market your site as the place readers can learn about news from your company before any other source.
+
+14. Contests
+Contests are a good content type for getting new readers and to keep your readers coming back to your site. Like quizzes, this repeat traffic is good for increasing your click-through rate.
+
+15. E-books
+Having an e-book that your readers can download, or read directly on your site, can expand on your regular content types with more in-depth information. Promoting an e-book is an excellent way to promote your company as an expert in your field.
+
+16. Landing pages
+Landing pages are designed as the first page that a site visitor sees when they take an action like clicking on an ad. It’s important that these remain your highest-quality pages, so they make a good first impression to the user.
+
+17. Infographics
+Out of all the other types of content, infographics remain one of the best at providing a visual representation of data or information to your reader. Plus, they also just look cool and can often illustrate a point much more clearly than if you explained the point with only text.
+
+
+<h3 id="dynamic">What Is a Dynamic Web Page?</h3>
+A dynamic website is a site that generates pages in real time, responding to dynamic characteristics such as screen size and device type. The structure and content of a dynamic web page are flexible, allowing you to customize the end-user’s experience based on the browser or requests.
+
+Dynamic websites respond to user actions to display the relevant content in an appropriate format. The extent of the change the website can handle differs according to the intricacy of the website’s interactive components and the developer’s skill level.
+
+Dynamic websites are used for a variety of purposes, including social media, photo and video sharing, web applications, and digital commerce websites.
+
+
+<h3 id="work">How Dynamic Websites Work</h3>
+A dynamic website requires significant back end complexity to enable front end flexibility. It does not store each page as a separate HTML file—rather, the web server builds the pages when a user requests the page. The server pulls the website’s data from the database (or databases) and constructs a custom HTML file for the user. When the server finishes building the page, it ships the HTML file back to the end-user’s browser.
+
+Dynamic websites use various client-side and server-side languages to build web pages on the back end. Examples include JavaScript, HTML, and CSS for the client-side and Python, Ruby, and PHP for the server-side. The amount of information pulled to generate the page varies, and the process can be complex. The end-user does not see the back end process, only the resulting web page in the browser. The user experience is similar to that of a static website.
+
+Crucial data points that dynamic websites can leverage to customize content and functionality include:
+
+Viewer demographics: Age, gender, interests, and other relevant demographic factors are taken into account to display tailored content to different user segments.
+Time of day: Depending on the user’s local time, dynamic websites can showcase special offers, news updates, or relevant messages to further pique their interest.
+Location: By identifying users’ geographic locations, the website can show region-specific promotions, facilitate faster delivery options, or list nearby offline stores.
+Language settings: Understanding users’ preferred languages allows dynamic websites to present content that is both intuitive and culturally appropriate, increasing the likelihood of conversions.
+Today, most websites are at least partially dynamic, incorporating some level of dynamic content. Social media platforms, news media sites, blogs, web apps, and eCommerce sites all require responsive, interactive content.
+
+<h3 id="security">Web security</h3>
+Before we continue, let’s clarify these terms. Web security can also include web application security (also called website security), a subcategory of practices and tools that help secure public-facing websites. For the purposes of this article, we’ll be focusing specifically on web security solutions that secure servers or user endpoints as well as the traffic that moves between those and the internet.
+
+What’s the Purpose of Web Security?
+The massive importance of the internet for modern enterprises—and the accompanying growth in the sophistication, frequency, and impact of cyberattacks—has made web security critical to business continuity. It’s your first line of defense against threats that can lead to the exposure of sensitive data, costly ransoms, reputational harm, compliance violations, and a host of other consequences.
+
+Once the domain of mostly small-time hackers, internet-borne threats have evolved into a massive black market business that touches the worlds of organized crime as well as state-sponsored espionage and sabotage. Some of the latest threats are incredibly sophisticated, able to easily fool the untrained eye or bypass legacy security. Plus, with an array of ready-made tools, exploit kits, JavaScript modules, and even fully developed campaigns for sale, even a novice actor can easily launch an attack.
+
+Cybersecurity Ventures estimates that, by 2025, global cybercrime will cost US$10.5 trillion annually—a greater profit than the entire world’s major illicit drug trade—and half the world’s data will live in the cloud. Given what’s at stake, it’s easy to see why effective web security is so important today.
+
+What Are the Benefits of Web Security?
+For a modern enterprise, effective web security has broad technical and human benefits:
+
+Protect your business and stay compliant by preventing loss of sensitive data
+Protect customers and employees by securing their private information
+Avoid costly service interruptions by preventing infections and exploits
+Offer a better user experience by helping your users stay safe and productive
+Maintain customer loyalty and trust by staying secure and out of the news
+Great strides in cloud and mobility technology let your employees and customers connect with you with unprecedented ease and flexibility. Unfortunately, that cuts both ways, and attackers have more ways to approach your organization’s wider attack surface. With the right web protections in place, you can spend more time taking advantage of the benefits, and less worrying about security threats.
+
+</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
